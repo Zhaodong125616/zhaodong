@@ -3251,8 +3251,10 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-warning {
-  color: #EA7228;
+  color: #ffffff;
+  background-color: #EA7228;
   border-color: #EA7228;
+  
 }
 
 .btn-outline-warning:hover {
@@ -5376,16 +5378,16 @@ input[type="button"].btn-block {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #007bff;
+  color: #ff9d00;
   background-color: #fff;
   border: 1px solid #dee2e6;
 }
 
 .page-link:hover {
   z-index: 2;
-  color: #0056b3;
+  color: #EA7228;
   text-decoration: none;
-  background-color: #e9ecef;
+  background-color: #eeefe9;
   border-color: #dee2e6;
 }
 
@@ -5456,13 +5458,14 @@ input[type="button"].btn-block {
 .badge {
   display: inline-block;
   padding: 0.25em 0.4em;
-  font-size: 75%;
-  font-weight: 700;
-  line-height: 1;
+  font-size: 95%;
+  font-weight: 1000;
+  line-height: 2.5;
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
   border-radius: 0.25rem;
+  margin: 12.5px;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
@@ -5470,11 +5473,6 @@ input[type="button"].btn-block {
   .badge {
     transition: none;
   }
-}
-
-a.badge:hover,
-a.badge:focus {
-  text-decoration: none;
 }
 
 .badge:empty {
@@ -8587,7 +8585,7 @@ button.bg-dark:focus {
 .fixed-bottom {
   position: fixed;
   bottom: 20%;
-  right: 7%;
+  right:125px;
   z-index: 1030;
 }
 
